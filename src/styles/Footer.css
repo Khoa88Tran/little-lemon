@@ -1,0 +1,46 @@
+.footer{
+    background-color: #495E57 ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    align-items: start;
+    padding: 1rem;
+    font-family: 'Markazi Text', serif;;
+    color: white;
+}
+
+.footer-logo{
+    margin-left: 5rem;
+    grid-column: 1;
+    height: auto;
+    max-width: 100%;
+    align-self: center;
+}
+
+.footer-nav {
+    display: grid;
+    grid-column: 2;
+}
+
+.footer-nav li {
+    list-style: none;
+    margin-bottom: .5rem;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contact {
+    grid-column: 3;
+
+}
+
+#contact {
+    font-family: 'Karla', sans-serif;
+}
+
+.footer-social-medias {
+    grid-column: 4;
+}
