@@ -1,15 +1,13 @@
 import React from "react";
-import Header from "./Header";
 import Nav from "./Nav";
-import Main from "./Main";
+import Main1 from "./Main1";
 import Footer from "./Footer";
 
 function App() {
   return (
     <>
-      {/* <Header/> */}
       <Nav/>
-      {/* <Main/> */}
+      <Main1/>
       <Footer/>
     </>
   );

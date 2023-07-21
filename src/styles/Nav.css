@@ -1,0 +1,43 @@
+.navbar {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, );
+    grid-gap: auto;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.navlogo {
+    margin-left: 5rem;
+    grid-column: 1;
+}
+
+.nav {
+    grid-column: 2;
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    flex: 2;
+}
+
+.nav ul li  {
+    list-style: none;
+    margin-right: 2rem;
+    justify-content: flex-start;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #495E57;
+    font-weight: bold;
+}
+
+.nav-log-in {
+    grid-column: 4;
+    margin-right: 5rem;
+    text-transform: uppercase;
+    color: #495E57;
+    font-weight: bold;
+}

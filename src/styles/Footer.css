@@ -2,9 +2,9 @@
     background-color: #495E57 ;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2rem;
+    grid-gap: auto;
     align-items: start;
-    padding: 1rem;
+    padding: auto;
     font-family: 'Markazi Text', serif;;
     color: white;
 }
@@ -37,10 +37,11 @@
 
 }
 
-#contact {
+#address {
     font-family: 'Karla', sans-serif;
 }
 
 .footer-social-medias {
     grid-column: 4;
+    margin-right: 5rem;
 }

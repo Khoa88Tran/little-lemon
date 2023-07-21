@@ -1,20 +1,13 @@
 import React from "react";
+import NavList from "./NavList";
+import "./styles/Nav.css"
 
-const NavList = () => {
-    const items = [
-        {text: "home", url: "/home"},
-        {text: "about", url: "/about"},
-        {text: "menu", url: "/menu"},
-        {text: "reservations", url: "/home"},
-        {text: "online order", url: "/online-order"},
-    ]
-    return items;
-}
+
 const Nav = () => {
     return (
-        <>
-            <img src="/Logo.svg" alt="Little Lemon logo" />
-            <nav>
+        <div className="navbar">
+            <img src="/Logo.svg" alt="Little Lemon logo" className="navlogo"/>
+            <nav className="nav">
                 <ul>
                     {NavList().map((item, index) => (
                         <li key={index}>
@@ -23,7 +16,9 @@ const Nav = () => {
                     ))}
                 </ul>
             </nav>
-        </> 
+
+            <p className="nav-log-in">log in</p>
+        </div>
     )
 }
 
