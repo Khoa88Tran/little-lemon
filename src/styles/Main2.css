@@ -1,0 +1,90 @@
+.main-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: auto;
+    align-items: center;
+}
+.main-2-box {
+    width: 400px;
+    height: 600px;
+    border-radius: 1rem;
+    border: 2px solid #495E57;
+    margin: 5rem;
+    position: relative;
+
+
+}
+
+.main-2-box:hover {
+    background-color: #495E57;
+    color: white;
+}
+
+.main-2-photo {
+    width: 400px;
+    height: 300px;
+    border-radius: 1rem;
+    align-self: auto;
+    margin: 25px;
+    margin-top: -30px;
+    object-fit: cover;
+}
+
+.item-name-price {
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, )
+
+}
+
+.item-name {
+    grid-column: 1;
+}
+
+.item-price {
+    grid-column: 2;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.item-name,
+.item-price {
+    font-weight: 550;
+    font-size: xx-large;
+    font-family: 'Markazi Text', serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:#495E57
+}
+
+.main-2-box:hover .item-name,
+.main-2-box:hover .item-price {
+  color: white;
+}
+
+.main-2-box:hover  .main-2-photo {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+.main-box-text {
+    width: 350px;
+    margin: 0 25px;
+    font-family: 'Karla', sans-serif;
+    text-indent: 30px;
+}
+
+.main-2-button {
+    background-color: #F4CE14;
+    padding: 7px 14px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: 'Markazi Text', serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #495E57;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}

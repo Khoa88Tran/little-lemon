@@ -38,6 +38,7 @@
     grid-column: 4;
     margin-right: 5rem;
     text-transform: uppercase;
+    text-align: right;
     color: #495E57;
     font-weight: bold;
 }
