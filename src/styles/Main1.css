@@ -40,6 +40,7 @@
     background-color: #F4CE14;
     padding: 7px 14px;
     border-radius: 0.5rem;
+    border: solid 1px;
     cursor: pointer;
     font-family: 'Markazi Text', serif;
     text-transform: uppercase;
